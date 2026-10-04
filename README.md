@@ -18,7 +18,8 @@ ReVanced patches for mobile puzzle games.
 ## Usage
 
 1. Get the app's APK. Most downloads are split bundles (`.xapk`, `.apks`, `.apkm`): merge them into a single APK first, for example with [AntiSplit-M](https://github.com/AbdurazaaqMohammed/AntiSplit-M) on Android or [APKEditor](https://github.com/REAndroid/APKEditor) on a computer (`java -jar APKEditor.jar m -i bundle.xapk -o merged.apk`).
-2. In ReVanced Manager, add this repository as a patches source: `https://github.com/freethekitties/freethekitties`
+2. In ReVanced Manager, add a remote patches source with this URL:
+   `https://raw.githubusercontent.com/freethekitties/freethekitties/main/patches-bundle.json`
 3. Select the merged APK, select the patches and patch.
 4. Uninstall the original app first: the patched app is signed with a different key and can't be installed over it.
 
